@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: url(./sky.jpg);
+    color: white;
+    line-height: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li{
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: 550;
+    align-items: center;
+}
+li:hover{
+    cursor: pointer;
+}
+main{
+    
+    height: 80vh;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    cursor: pointer;
+}
